@@ -3,18 +3,18 @@ import { View, Text, TextInput, TouchableOpacity, Image, FlatList, StyleSheet } 
 import { db, addDoc, collection } from './firebase';
 
 const cartas = [
-  { id: 1, imagen: require('./assets/manzana.png'), emparejado: false },
-  { id: 2, imagen: require('./assets/manzana.png'), emparejado: false },
-  { id: 3, imagen: require('./assets/banana.png'), emparejado: false },
-  { id: 4, imagen: require('./assets/banana.png'), emparejado: false },
-  { id: 5, imagen: require('./assets/cereza.png'), emparejado: false },
-  { id: 6, imagen: require('./assets/cereza.png'), emparejado: false },
-  { id: 7, imagen: require('./assets/uva.png'), emparejado: false },
-  { id: 8, imagen: require('./assets/uva.png'), emparejado: false },
-  { id: 9, imagen: require('./assets/fresa.png'), emparejado: false },
-  { id: 10, imagen: require('./assets/fresa.png'), emparejado: false },
-  { id: 11, imagen: require('./assets/naranja.png'), emparejado: false },
-  { id: 12, imagen: require('./assets/naranja.png'), emparejado: false },
+  { id: 1, imagen: require('./assets/manzana.jpeg'), emparejado: false },
+  { id: 2, imagen: require('./assets/manzana.jpeg'), emparejado: false },
+  { id: 3, imagen: require('./assets/banana.jpeg'), emparejado: false },
+  { id: 4, imagen: require('./assets/banana.jpeg'), emparejado: false },
+  { id: 5, imagen: require('./assets/cereza.jpeg'), emparejado: false },
+  { id: 6, imagen: require('./assets/cereza.jpeg'), emparejado: false },
+  { id: 7, imagen: require('./assets/uva.jpeg'), emparejado: false },
+  { id: 8, imagen: require('./assets/uva.jpeg'), emparejado: false },
+  { id: 9, imagen: require('./assets/fresa.jpeg'), emparejado: false },
+  { id: 10, imagen: require('./assets/fresa.jpeg'), emparejado: false },
+  { id: 11, imagen: require('./assets/naranja.jpeg'), emparejado: false },
+  { id: 12, imagen: require('./assets/naranja.jpeg'), emparejado: false },
 ];
 
 const App = () => {
